@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <main>
+  <div class="static">
+    <p>
+      This is static. It follows the normal flow of the document and does not have any special positioning or offsets.
+    </p>
+  </div>
+  <div class="relative">
+    <p>
+      This is relative. It is offset 500px from the left and 700px from the top, relative to its original position.
+    </p>
+  <div class="absolute">
+    <p>
+      This is absolute. It is offset 30px from the left and 100px from the top, relative to its nearest positioned parent, 'relative'.
+    </p>
+  </div>
+  </div>
+  <div class="fixed">
+    <p>
+      This is fixed. It remains in the same position relative to the viewport and does not move when scrolling the page.
+    </p>
+  </div>
+  <div class="sticky">
+    <p>
+      This is sticky. It should stick to the top when you scroll down.
+    </p>
+  </div>
+  </main>
+</body>
+</html>
